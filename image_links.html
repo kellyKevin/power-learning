@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .menu ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Image Links</h1>
+        <a href="https://www.bing.com/images/search?view=detailV2&ccid=UYmmFbLy&id=AD4C4202154DD64382EAA7E96D5B6A5D36FFC267&thid=OIP.UYmmFbLySXAqfZ3vDEK8DAHaEo&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f3320065.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5189a615b2f249702a7d9def0c42bc0c%3frik%3dZ8L%252fNl1qW23ppw%26pid%3dImgRaw%26r%3d0&exph=2400&expw=3840&q=technology+images+4k&simid=608006553364687930&FORM=IRPRST&ck=DF2B75B87A19D991BD9D951F5ECE279E&selectedIndex=0&itb=0&idpp=overlayview&ajaxhist=0&ajaxserp=0" target="_blank">
+            <img src="R.jpg" alt="Technology" style="max-width: 40%; height: 10%;" />
+          </a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.bing.com/images/search?q=Nature+4K+Forests&form=IARSLK&first=1" target="_blank">
+                <img src="maxresdefault.jpg" alt="Nature 1" style="max-width: 100%; height: auto;" />
+            </a>
+            <a href="https://www.bing.com/images/search?q=Nature+Landscapes&form=IARSLK&first=1" target="_blank">
+                <img src="Hsz0o8.jpg" alt="Nature 2" style="max-width: 100%; height: 89%;" />
+            </a>
+            <a href="https://www.bing.com/images/search?q=Nature+Photography&form=IARSLK&first=1" target="_blank">
+                <img src="R (1).jpg" alt="Nature 3" style="max-width: 100%; height: auto;"  />
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu">
+            <a href="https://example.com/food1" target="_blank">
+                <img src="OIP.jpg" alt="Food 1" style="max-width: 33%; height: auto;" />
+            </a>
+            <a href="https://example.com/food2" target="_blank">
+                <img src="OIF.jpg" alt="Food 2" style="max-width: 33%; height: auto;" />
+            </a>
+            <a href="https://example.com/food3" target="_blank">
+                <img src="thumb-1920-201298.jpg" alt="Food 3" style="max-width: 33%; height: auto;"  />
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
